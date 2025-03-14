@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  
