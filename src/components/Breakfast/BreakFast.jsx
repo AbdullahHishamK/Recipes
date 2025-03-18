@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState,useEffect } from "react";
 import { NavLink } from "react-router-dom";
-const BreakFast = () => {
+const Breakfast = () => {
 
 
     const [products,setproducts] = useState(null)
@@ -38,4 +38,4 @@ const BreakFast = () => {
   )
 }
 
-export default BreakFast
+export default Breakfast
