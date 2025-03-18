@@ -4,7 +4,7 @@ import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import All from './components/All/All';
 import Beef from './components/Beef/Beef';
-import BreakFast from './components/BreakFast/BreakFast';
+import BreakFast from './components/breakfast/BreakFast'; // Corrected import statement
 import Chicken from './components/Chicken/Chicken';
 import Dessert from './components/Dessert/Dessert';
 import Goat from './components/Goat/Goat';
@@ -16,7 +16,7 @@ import Seafood from './components/Seafood/Seafood';
 import Side from './components/Side/Side';
 import Starter from './components/Starter/Starter';
 import Vegan from './components/Vegan/Vegan';
-import Vegeterian from './components/vegeterian/Vegeterian';
+import Vegeterian from './components/vegeterian/Vegeterian'; // Corrected import statement
 import Details from './components/details/Details';
 
 const queryClient = new QueryClient();
