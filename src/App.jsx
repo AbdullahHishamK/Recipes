@@ -4,7 +4,6 @@ import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import All from './components/All/All';
 import Beef from './components/Beef/Beef';
-import BreakFast from './components/breakfast/Breakfast';
 import Chicken from './components/Chicken/Chicken';
 import Dessert from './components/Dessert/Dessert';
 import Goat from './components/Goat/Goat';
@@ -16,8 +15,9 @@ import Seafood from './components/Seafood/Seafood';
 import Side from './components/Side/Side';
 import Starter from './components/Starter/Starter';
 import Vegan from './components/Vegan/Vegan';
-import Vegeterian from './components/vegeterian/Vegeterian';
 import Details from './components/details/Details';
+import Breakfast from './components/breakfast/Breakfast';
+import Vegeterian from './components/vegeterian/Vegeterian'
 
 const queryClient = new QueryClient();
 
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
           { path: 'details/:idMeal', element: <Details /> },
           { path: 'beef', element: <Beef /> },
           { path: 'beef/details/:idMeal', element: <Details /> },
-          { path: 'breakfast', element: <BreakFast /> },
+          { path: 'breakfast', element: <Breakfast /> },
           { path: 'breakfast/details/:idMeal', element: <Details /> },
           { path: 'chicken', element: <Chicken /> },
           { path: 'chicken/details/:idMeal', element: <Details /> },

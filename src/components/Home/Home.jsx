@@ -1,6 +1,9 @@
 import { NavLink, Outlet } from 'react-router-dom';
+import { useState } from 'react';
 
 const Home = () => {
+  const [isOpen] = useState(false);
+
   const categories = [
     { name: 'All', path: '' },
     { name: 'Beef', path: 'beef' },
@@ -20,8 +23,10 @@ const Home = () => {
   ];
 
   return (
-    <div className="ml-64 bg-[#f4f2ee]">
-      <h1 className="text-4xl font-bold bg-gradient-to-r from-[#f19525]   via-[#ca1023c4] to-[#d8504b]  bg-clip-text text-transparent pacifico-regular p-5">Learn, Cook, Eat Your Food</h1>
+    <div className={`bg-[#f4f2ee] ${isOpen ? 'ml-64' : 'ml-0 sm:ml-64'} transition-all duration-300`}>
+      <h1 className="text-4xl font-bold bg-gradient-to-r from-[#f19525] via-[#ca1023c4] to-[#d8504b] bg-clip-text text-transparent pacifico-regular p-5 text-center sm:text-left">
+        Learn, Cook, Eat Your Food
+      </h1>
       <ul className="sm:flex hidden mt-8 flex-wrap gap-4 font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
         {categories.map((category) => (
           <li className="me-2" key={category.name}>
