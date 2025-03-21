@@ -16,8 +16,8 @@ import Side from './components/Side/Side';
 import Starter from './components/Starter/Starter';
 import Vegan from './components/Vegan/Vegan';
 import Details from './components/details/Details';
-import Breakfast from './components/breakfast/Breakfast';
-import Vegeterian from './components/vegeterian/Vegeterian'
+// import Breakfast from './components/Breakfast/Breakfast'; // Corrected import statement
+// import Vegeterian from './components/Vegeterian/Vegeterian'; // Corrected import statement
 
 const queryClient = new QueryClient();
 
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
           { path: 'details/:idMeal', element: <Details /> },
           { path: 'beef', element: <Beef /> },
           { path: 'beef/details/:idMeal', element: <Details /> },
-          { path: 'breakfast', element: <Breakfast /> },
-          { path: 'breakfast/details/:idMeal', element: <Details /> },
+          // { path: 'breakfast', element: <Breakfast /> },
+          // { path: 'breakfast/details/:idMeal', element: <Details /> },
           { path: 'chicken', element: <Chicken /> },
           { path: 'chicken/details/:idMeal', element: <Details /> },
           { path: 'dessert', element: <Dessert /> },
@@ -60,8 +60,8 @@ const router = createBrowserRouter([
           { path: 'starter/details/:idMeal', element: <Details /> },
           { path: 'vegan', element: <Vegan /> },
           { path: 'vegan/details/:idMeal', element: <Details /> },
-          { path: 'vegetarian', element: <Vegeterian /> },
-          { path: 'vegetarian/details/:idMeal', element: <Details /> },
+          // { path: 'vegetarian', element: <Vegeterian /> },
+          // { path: 'vegetarian/details/:idMeal', element: <Details /> },
         ],
       },
       { path: 'details/:idMeal', element: <Details /> }, // Details route as a sibling
