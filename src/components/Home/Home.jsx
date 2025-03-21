@@ -7,7 +7,7 @@ const Home = () => {
   const categories = [
     { name: 'All', path: '' },
     { name: 'Beef', path: 'beef' },
-    { name: 'Breakfast', path: 'breakfast' },
+    // { name: 'Breakfast', path: 'breakfast' },
     { name: 'Chicken', path: 'chicken' },
     { name: 'Dessert', path: 'dessert' },
     { name: 'Goat', path: 'goat' },
@@ -19,7 +19,7 @@ const Home = () => {
     { name: 'Side', path: 'side' },
     { name: 'Starter', path: 'starter' },
     { name: 'Vegan', path: 'vegan' },
-    { name: 'Vegetarian', path: 'vegetarian' },
+    // { name: 'Vegetarian', path: 'vegetarian' },
   ];
 
   return (
