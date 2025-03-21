@@ -27,12 +27,12 @@ const Home = () => {
       <h1 className="text-4xl font-bold bg-gradient-to-r from-[#f19525] via-[#ca1023c4] to-[#d8504b] bg-clip-text text-transparent pacifico-regular p-5 text-center sm:text-left">
         Learn, Cook, Eat Your Food
       </h1>
-      <ul className="sm:flex hidden mt-8 flex-wrap gap-4 font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
+      <ul className="flex mt-8 flex-wrap gap-4 font-medium text-center text-gray-500 border-b border-gray-200">
         {categories.map((category) => (
           <li className="me-2" key={category.name}>
             <NavLink
               className={({ isActive }) =>
-                `inline-block px-4 py-2 catLink border-gray-400 border transition-all hover:shadow-xl shadow duration-300 rounded-full hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300 ${
+                `inline-block px-4 py-2 catLink border-gray-400 border transition-all hover:shadow-xl shadow duration-300 rounded-full hover:text-gray-600 hover:bg-gray-50 ${
                   isActive ? 'bg-black text-gray-300' : ''
                 }`
               }
