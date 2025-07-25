@@ -1,8 +1,42 @@
-# React + Vite
+# 🍲 Recipes Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and responsive web application that showcases a collection of tasty recipes. Users can easily browse through meals, view ingredients, and follow the cooking instructions. Designed with simplicity and usability in mind.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**  
+👉 [https://recipes-delta-ebon.vercel.app](https://recipes-delta-ebon.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+
+- 🍽️ Browse a variety of delicious meals
+- 📋 View ingredients and detailed instructions
+- 🔍 Easy-to-navigate and responsive layout
+- 🌗 Clean and modern UI
+- ⚡ Fast and smooth user experience
+
+---
+
+## 🛠️ Tech Stack
+- **React.js**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **API**: Fetches meal data from [TheMealDB](https://www.themealdb.com/)
+
+---
+
+## 📸 Preview
+
+![Recipe App Screenshot](link-to-your-screenshot-if-any)
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/recipes-web-app.git
+cd recipes-web-app
+open index.html in your browser
